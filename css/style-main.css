@@ -680,8 +680,8 @@ section {
 }
 section > .container,
 section > .container-fluid {
-  padding-top: 60px;
-  padding-bottom: 60px;
+ /* padding-top: 60px;*/
+  padding-bottom: 40px;
 }
 /* -------- Background Video ---------- */
 .bg-video {
@@ -5026,6 +5026,7 @@ blockquote p {
   text-align: center;
   bottom: 15px;
   right: 15px;
+  margin-bottom:-20px;
 }
 .flex-control-nav li {
   float: left;
